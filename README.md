@@ -7,7 +7,7 @@ Let's work together to improve this page! :smile: Does it sound good to you? If 
 3. You have a service suggestion.
 4. You would like to collaborate with me professionally.[^1]
 
-Thank you in advance por considering collaborating with me! ![Thank you](img/ThankYou.jpg)
+**Thank you in advance por considering collaborating with me!** ![Thank you](img/ThankYou.jpg)
 
 
 [^1]: If you are a translator, a linguist, a translation or language university lecturer, a translation/text reviser, a proofreader, a designer, a web developer, etc.  
