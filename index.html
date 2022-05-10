@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>SL Translation Services</title>
+<title>SL Language Services</title>
 <style> 
 body {
-  background-color: #DFDFFF;
-  min-height: 100vh;
+  background-color: #DFDFFD;
+  min-height: 90vh;
 }
 h1 {
   font-family: Century Gothic;
   font-size: 28px;
-  color: #B724F7;
+  color: #154c79;
   font-style:italic;
-}
+ }
 h2 {
   font-family: Century Gothic;
   font-size: 25px;
-  color: #D478FB;
+  color: #154c79;
   font-style:italic;
+ }
+.left {
+   width: 50%;
+   float: left;
+  }
+.right {
+   font-family: Century Gothic;
+   width: 40%;
+   float: right;
+  }
+.full {
+   font-family: Century Gothic;
+   width: 100%;
+   float: left;
+ }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 2px; 
+  margin-bottom: 8px;
+  resize: vertical;
+  }
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form {
+   border-radius: 10px;
+   background-color: #f2f2f2;
+   padding: 16px;
 }
 p {
   font-family: Century Gothic;
@@ -29,34 +66,65 @@ ul {
   font-size: 18px;
   color: #000000;
 }
+footer {
+  font-size: 15px;
+  font-style: italic;
+  background-color: #f2f2f2;
+  display: block;
+  position: relative;
+  padding: 10px;
+  margin: 0;
+  border-radius: 10px;
+}
 
 </style>
 </head>
 <body>
-<img src="img/logo.png" alt="SL logo" width="170" height="130" style="float:left">
-<img src="img/conversation.png" alt="conversation image" width="600" height="600" style="float:right">
-<h1>SL Language Services</h1>
-<h2>EN/FR/ES linguistic services<br>
-Translation and Interpreting Project Management</h2>
-<p style="font-weight:bold;">Welcome to our HTML page!</p>
-<p>Our services:<p>
-<ul>
-<li>English and French into Spanish translation, localization, and transcreation services.</li>
-<li>English, French, and Spanish terminology services.</li>
-<li>Spanish proofreading and copywriting services.</li>
-<li>English, French, and Spanish transcription services.</li>
-<li>Translation and Interpreting Project Management Services.</li>
-</ul>
-<p>Regarding our translation services, according to your needs, we propose:</p>
-<ul>
-<li>Human translation, which includes three basic steps: human translation, revision, and proofreading, or</li>
-<li>Machine translation, which includes four basic steps: machine translation, post-editing, revision, and proofreading.</li>
-</ul>
-<img src="img/tick-box.png" alt="ticked box" width="40" height="25" style="float:left">
-<p style="font-weight:bold;">We offer high quality, on time, and on-budget services.</p>
-<img src="img/free.jpg" alt="free" width="40" height="25" style="float:left">
-<p style="font-weight:bold;">Free quote! Contact us today at <a href="mailto:Sonia.Lopez@etu.unige.ch">E-mail</a>.</p>
-<p style="font-style:italic;font-weight:bold; font-size:17px;">We look forward to hearing from you!</p>
-<img src="img/wave.png" alt="wave image" width="1420" height="400" style="float:button">
+	<img src="img/logo.png" alt="SL logo" width="170" height="130" style="float:left">
+	<img src="img/conversation.png" alt="conversation image" width="180" height="180" style="float:right">
+	<h1>SL Language Services</h1>
+	<h2>EN/FR/ES linguistic services<br>
+		Translation and Interpreting Project Management</h2>
+	<section class="left">
+	<p style="font-weight:bold;text-align:center">Welcome to our HTML page!</p>
+	<p>Our services:<p>
+	<ul>
+		<li>English and French into Spanish translation, localization, and transcreation services.</li>
+		<li>English, French, and Spanish terminology services.</li>
+		<li>Spanish proofreading and copywriting services.</li>
+		<li>English, French, and Spanish transcription services.</li>
+		<li>Translation and Interpreting Project Management Services.</li>
+	</ul>
+	<p>Regarding our translation services, we propose the following ones, to be selected according to your needs:</p>
+	<ul>
+		<li>Human translation, which includes three basic steps: human translation, revision, and proofreading, or</li>
+		<li>Machine translation, which includes four basic steps: machine translation, post-editing, revision, and proofreading.</li>
+	</ul>
+	<img src="img/tick-box.png" alt="ticked box" width="40" height="25" style="float:left">
+	<p style="font-weight:bold;">We offer high quality, on time, and on-budget services.</p>
+	<img src="img/free.jpg" alt="free" width="40" height="25" style="float:left">
+	<p style="font-weight:bold;"> quote! Contact us today at <a href="mailto:Sonia.Lopez@etu.unige.ch">E-mail</a> or by filling out our contact form.</p>
+	<p style="color:#154c79; font-weight:bold; font-size:20px;text-align:center">We look forward to hearing from you!</p>
+	</section>
+	<section class="right">
+	<p style="font-weight:bold">Contact form<p>
+		<form method="post" name="myemailform" action="form-to-email.php">
+			<label for="name">Full Name</label>
+			<input type="text" id="name" name="fullname" placeholder="Your full name...">
+			<label for="email">Email address</label>
+			<input type="text" id="email" name="Email address" placeholder="Your email address...">
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Write your message..." style="height:200px"></textarea>
+			<input type="submit" value="Submit">
+		</form>
+	</section>
+	<section class="full">
+		<footer>
+			<p style="font-size:15px">© 2022 SL Language Services - Sonia López</br>
+			   Last update: May 2022.
+			<span style="float:right"><a href="mailto:Sonia.Lopez@etu.unige.ch"><img src="img/email.png" alt="sonia.lopez@etu.unige.ch" width="35"></a>
+			<a href="https://www.linkedin.com/in/soniavivianalopez/"><img src="img/linkedIn.png" alt="LinkedIn" width="30"></a></span></p>
+		</footer>
+	</section>
 </body>
 </html>
