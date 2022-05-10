@@ -15,4 +15,4 @@ Let's work together to improve this page! :smile: Does it sound good to you? If 
 P.S.: If interested, you can also check out the page I developed a couple of years ago for the Localisation module: [Localisation module web page](https://2020sonialopez.wixsite.com/localisation-2020).
 
 
-[^1]: If you are a translator, a linguist, a translation or language university lecturer, a translation/text reviser, a proofreader, a designer, a web developer, etc.  
+[^1]: If you are a translator, a linguist, a translation or language lecturer, a translation/text reviser, a proofreader, a designer, a web developer, etc.  
