@@ -1,4 +1,4 @@
-On this page, you will find my **professional web page**. Please, keep in mind that it is under construction. I apology for any inconveniences it may cause you.
+On this page, you will find my **professional web page**. Please, keep in mind that it is under construction. I apologise for any inconveniences it may cause you.
 
 Also, I included the *Contact form* on this page just to add more elements to it (and to practice with an element I had never worked before), but I did not include the PHP script. Thus, the form does not work. 
 
