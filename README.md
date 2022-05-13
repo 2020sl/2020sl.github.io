@@ -2,9 +2,8 @@ On this page, you will find my **professional web page**. Please, keep in mind t
 
 Also, I included the *Contact form* on this page just to add more elements to it (and to practice with an element I had never worked before), but I did not include the PHP script. Thus, the form does not work. 
 
-Let's work together to improve this page! :smile: Does it sound good to you? If so, feel free to contact me at [Sonia.Lopez@etu.unige.ch](sonia.lopez@etu.unige.ch) if:
-- You spot a typo or a grammar mistake.
-- You have comments or suggestions to improve this page.
+Let's work together to improve this page! :smile: Does it sound good to you? If so, feel free to modify this page as you wish or contact me at [Sonia.Lopez@etu.unige.ch](sonia.lopez@etu.unige.ch) if:
+- You have comments or suggestions to improve this page and would like to discuss them with me.
 - You have a service suggestion.
 - You would like to collaborate with me professionally.[^1]
 
